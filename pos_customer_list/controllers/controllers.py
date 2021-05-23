@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-# from odoo import http
-
+from odoo import http
 
 # class PosCustomerList(http.Controller):
 #     @http.route('/pos_customer_list/pos_customer_list/', auth='public')

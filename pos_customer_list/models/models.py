@@ -2,7 +2,6 @@
 
 from odoo import models, fields, api
 
-
 class ResPartner(models.Model):
     _inherit = 'res.partner'
 
@@ -13,4 +12,3 @@ class ResPartner(models.Model):
         if not partner.get('available_in_pos'):
             partner['available_in_pos'] = True
         return super(ResPartner, self).create_from_ui(partner)
-
