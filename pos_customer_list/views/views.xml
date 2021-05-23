@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+
+
+   <record id="pos_partner_view_list" model="ir.ui.view">
+        <field name="name">point of sale customer list</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="point_of_sale.view_partner_property_form"/>
+        <field name="arch" type="xml">
+            <field name="barcode" position="before">
+                <field name="available_in_pos"/>
+            </field>
+        </field>
+   </record>
+
+
+  </data>
+</odoo>
