@@ -1,23 +1,23 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "POS Customer List",
+    'name': "POS Customer Restriction",
 
     'summary': """
-        This Module allows to restrict customer loading to point of sale.
+        This Module allows to restrict customers from loading in point of sale.
        """,
 
     'description': """
-        The module will allow a customer to be displayed in the PoS, load through the check box 'Available in POS'
+        This Module allows to restrict customers from loading in point of sale. Customers's visibility can be controlled with a check box ' Available in POS'
     """,
 
     'author': "Loyal IT Solutions Pvt Ltd",
-    'website': "http://www.loyalitsolutions.com",
+    'website': "https://www.loyalitsolutions.com",
 
     # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
+    # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Point Of Sale',
-    'version': "12.0.1.0.0",
+    'version': "13.0.1.0.0",
     'license': 'AGPL-3',
     'support': "support@loyalitsolutions.com",
 
